@@ -1,0 +1,481 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <meta charset="utf-8">
+  <title>Untitled Document</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/lightbox.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <style>
+    
+    @media (max-width: 480px) {
+      body {
+        padding-top: 40px;
+      }
+      
+      .navbar {
+        padding: 10px;
+      }
+      
+      .navbar-brand {
+        font-size: 1.2rem;
+      }
+      
+      .nav-pills .nav-link {
+        font-size: 0.9rem;
+        padding: 5px 8px;
+      }
+
+      .container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+
+      .row {
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      .section-title h4 {
+        font-size: 1.8rem;
+      }
+
+      .ml3, .ml1 {
+        text-align: center;
+      }
+
+      .services-container {
+        flex-direction: column;
+        align-items: start;
+        gap: 10px;
+        margin: 10px 0;
+      }
+
+      /* Projects section */
+      #scrollspyHeading4 {
+        padding: 20px 0;
+      }
+      
+      .counter {
+        font-size: 1.5rem;
+      }
+      
+      /* Experience section */
+      .timeline-list {
+        padding-left: 0;
+      }
+      
+      .timeline_content {
+        padding: 15px;
+        margin: 15px 0;
+        width: 100%;
+      }
+      
+      .timeline_content h4 {
+        font-size: 1.2rem;
+      }
+      
+      /* Contact section */
+      #scrollspyHeading5 .container {
+        padding: 20px;
+      }
+      
+      .form-control {
+        margin-bottom: 15px;
+        width: 100%;
+      }
+      
+      /* General spacing fixes */
+      .pt-100 {
+        padding-top: 50px !important;
+      }
+      
+      .pb-100 {
+        padding-bottom: 50px !important;
+      }
+      
+      /* About section fixes */
+      #scrollspyHeading2 .row {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        margin: 0;
+      }
+      
+      .services-container p {
+        margin-bottom: 5px;
+      }
+      
+      /* Skills section */
+      .progress {
+        max-width: 100%;
+      }
+      
+      /* Hero section fixes */
+      #scrollspyHeading1 .row {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+      }
+      
+      .tieu-de {
+        font-size: 1rem;
+        text-align: center;
+      }
+
+      /* Image adjustments */
+      .img-fluid {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+      }
+      
+      /* Portfolio/Project section */
+      .tab-content img {
+        width: 100%;
+        margin-bottom: 15px;
+      }
+      
+      /* Navigation pills in projects */
+      .nav-pills {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+      }
+      
+      /* Counters adjustment */
+      .counter-section {
+        flex-direction: column;
+        gap: 15px;
+      }
+      
+      .me-4 {
+        margin-right: 0 !important;
+        margin-bottom: 10px;
+      }
+      
+      /* Section padding adjustments */
+      section {
+        padding: 30px 0;
+      }
+      
+      /* Text alignment fixes */
+      h1, h2, h3, h4, .section-title {
+        text-align: center !important;
+      }
+    }
+
+    /* Ensure images don't overflow their containers */
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    /* Add smooth transitions for better UX */
+    .nav-link, .btn, a {
+      transition: all 0.3s ease;
+    }
+    
+  </style>
+
+</head>
+
+<body style="padding-top: 60px">
+
+
+  <nav id="navbar-example2" class="navbar bg-black px-3 mb-3 fixed-top shadow"> <a class="navbar-brand" href="#">MENNE
+      <span class="sofia-regular">Portfolio</span></a>
+    <ul class="nav nav-pills ">
+      <li class="nav-item "> <a class="nav-link text-light" href="#scrollspyHeading1">Gioi Thieu</a> </li>
+      <li class="nav-item"> <a class="nav-link text-light" href="#scrollspyHeading2">About Me</a> </li>
+      <li class="nav-item"> <a class="nav-link text-light" href="#scrollspyHeading3">Kinh nghiem</a> </li>
+      <li class="nav-item"> <a class="nav-link text-light" href="#scrollspyHeading4">Du an</a> </li>
+      <li class="nav-item"> <a class="nav-link text-light	" href="#scrollspyHeading5">Lien he</a> </li>
+    </ul>
+  </nav>
+  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+    data-bs-smooth-scroll="true" class="scrollspy-example bg-black p-3 rounded-2 text-" tabindex="0">
+    <h4 id="scrollspyHeading1"></h4>
+    <section class="">
+      <div class="container">
+        <div class="row d-flex align-item-center " style="padding-left: 100px;padding-right: 100px">
+          <div class="col-lg-6 mb-3 text-light">
+            <div class="text-info ml3 pt-them5">
+              <div style="font-size: 2rem; font-weight: bold;">"Hi I'm"</div>
+              <div style="font-size: 1.5rem; font-weight: normal; margin-top: 10px;">Graphic Designer</div>
+            </div>
+
+            <div class="ml1">
+
+              <h2><span class=""> </span><span class="element text-success"></span></h2>
+              <p class="tieu-de"> "Hello, I’m Zan Men, a Junior Designer with a passion for creativity. I am always
+                striving to improve my design skills and create products that are not only visually appealing but also
+                highly functional."
+
+              </p>
+            </div>
+            <button type="button" class="btn btn-warning mt-4">Xem Them</button>
+          </div>
+          <div class="col-lg-6 "> <img src="images/Menne1.png" alt="" class="img-fluid "> </div>
+
+        </div>
+        <img src="images/arrow.png" alt=""
+          style="width: 200px; transform: scalex(-1) translateX(20px); margin-right: 150px; padding: 0px; margin-left: 15%;">
+      </div>
+    </section>
+    <h3 id="scrollspyHeading2"></h3>
+    <section style="text-align: center;">
+      <div class="container">
+        <div class="row d-flex align-items-center text-primary"
+          style="padding-left: 50px;padding-right: 50px; padding-bottom: 0;padding-top: 0;">
+          <h3 class="text-primary mb-5 " style="font-weight: bold;font-size: 80px;">About me</h3>
+          <div class="col-lg-3 mb-3 mt-5" style="margin: 0 auto;"><img
+              src="images/magic-circle-with-glowing-lights-flowing-lines_1048-12121.avif" alt="" class="img-fluid "
+              style="width: 500px;padding:0px"></div>
+          <div class="col-lg-9 mb-3"
+            style="width: 600px; margin: 0 auto; display: flex; flex-direction: column; justify-content: space-between;">
+            
+            <div>
+              <p class="text-light">"Hello, I’m Zan Men, a passionate Junior Designer. I love creativity and am always
+                seeking fresh ideas to express through design. With a background in graphic design, I have a special
+                interest in fabric printing and continuously strive to improve my skills. I aim to create designs that
+                are not only visually appealing but also highly functional."</p>
+            </div>
+
+            <div style="text-align: left;">
+              <h3 class="tieu-de" style="text-align: right;font-size: 50px">Services</h3>
+              <div class="services-container d-flex text text-light ">
+                <p class="fas fa-check"><span style="padding-left: 10px;padding-right:10px;font-weight: 200;"> Logo </span></p>
+                <p class="fas fa-check"><span style="padding-left: 10px;padding-right:10px;font-weight: 200;"> Custom Illustrations </span></p>
+                <p class="fas fa-check"><span style="padding-left: 10px;padding-right:10px;font-weight: 200;">Poster & Flyers</span></p>
+              </div>
+              <div class="services-container d-flex text-light">
+                <p class="fas fa-check "><span style="padding-left: 10px;padding-right:10px;font-weight: 200;"> Brand Guideline </span></p>
+                <p class="fas fa-check"><span style="padding-left: 10px;padding-right:10px;font-weight: 200;"> Web Design </span></p>
+                <p class="fas fa-check"><span style="padding-left: 10px;padding-right:10px;font-weight: 200;"> Marketing Materials </span></p>
+              </div>
+            
+            </div>
+            <div style="text-align: right;">
+              <h4 class="tieu-de pt-1" style="text-align: left;font-size: 50px">Education</h4>
+            </div>
+           
+            <div style="text-align: right;">
+              <img src="images/site-icon.png" alt="" class="img-fluid" style="width: 150px; padding: 0px;">
+            </div>
+            <div class="col-12 mb-3 align-items-center text-center justify-content-center " style="width: 250px;height: auto; text-align: center;">
+              <h4 class="tieu-de"
+                style="text-align: center;font-size: 50px;padding-bottom: 0px;padding-top: 24px;margin:0px;">Skills</h4>
+              <br>
+              <span class="text-light"
+                style="font-size: 18px; padding-bottom: 5px;padding-top: 0px; display: inline-block;font-weight: bold">Photoshop</span>
+              <div class="progress" style="margin: 0 auto 10px;">
+                <div class="progress-bar bg-primary progress-bar-animated progress-bar-striped" role="progressbar"
+                  aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">75%</div>
+
+              </div>
+
+              <span  class="text-light"
+                style="font-size: 18px; padding-bottom: 5px;padding-top: 5px; display: inline-block;font-weight: bold">Illustrator</span>
+              <div class="progress " style="margin: 0 auto 10px;">
+                <div class="progress-bar bg-primary progress-bar-animated progress-bar-striped" role="progressbar"
+                  aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
+                  aria-valuemax="100">75%</div>
+              </div>
+              <span class="text-light"
+                style="font-size: 18px; padding-bottom: 5px;padding-top: 5px; display: inline-block;font-weight: bold">Indesign</span>
+              <div class="progress " style="margin: 0 auto 10px;">
+                <div class="progress-bar bg-primary progress-bar-animated progress-bar-striped" role="progressbar"
+                  aria-label="Example with label" style="width: 50%;" aria-valuenow="50" aria-valuemin="50"
+                  aria-valuemax="100">50%</div>
+              </div>
+            </div>
+            
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    </section>
+    <h4 id="scrollspyHeading3"></h4>
+    <section class="experience pt-100 pb-100" id="experience">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-xl-8 mx-auto text-center">
+            <div class="section-title">
+              <h4>Experience</h4>
+              <p>Places I have worked</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-xl-10">
+            <ul class="timeline-list text-center">
+             
+              <li>
+                <div class="timeline_content">
+                  <span style="color:white">2022</span>
+                  <h4>Atacha</h4>
+                  <p>I specialize in creating illustrative designs for printed materials and packaging. My work involves
+                    developing unique and visually engaging patterns that enhance the identity of a brand and elevate
+                    the overall aesthetic of packaging. I focus on combining creativity with functionality to ensure
+                    that each design not only captures attention but also effectively communicates the message of the
+                    product.</p>
+                </div>
+              </li>
+             
+              <li>
+                <div class="timeline_content">
+                  <span style="color:white">2024-2025</span>
+                  <h4>Freelance</h4>
+                  <p>I work as a freelance designer, taking on project-based work for various clients through online
+                    platforms. My focus includes illustration, packaging design, marketing materials, and brand
+                    identity. I strive to deliver creative, practical designs while maintaining deadlines and ensuring
+                    client satisfaction.
+
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h4 id="scrollspyHeading4"></h4>
+    <section>
+      <div class="container text-center">
+        <h2 class="text-center text-uppercase text-primary mb-4">My project</h2>
+        <div class="d-flex justify-content-center mb-4 counter-section">
+          <h4 class="me-4">
+            <span>Client Happy:</span>
+            <span class="counter text-primary" data-counter-time="1000" data-counter-delay="0.5">120</span>
+          </h4>
+          <h4>
+            <span>Project Done:</span>
+            <span class="counter text-primary" data-counter-time="30" data-counter-delay="2">30</span>
+          </h4>
+        </div>
+
+        <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+              type="button" role="tab" aria-controls="pills-home" aria-selected="true">Poster</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+              type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Branding</button>
+          </li>
+          
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+        
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3" style="position: relative; z-index: 10;" 
+   >
+    <a href="images/POSTER Rosette PINK Final.png" data-lightbox="roadtrip" data-title="Poster 1 Adorne">
+      <img src="images/POSTER Rosette PINK Final.png" alt="" class="img-fluid">
+    </a>
+  </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                <a href="images/POSTER OCEAN BLUE FINAL.png" data-lightbox="roadtrip" data-title="Poster 2 Adorne">
+                  <img src="images/POSTER OCEAN BLUE FINAL.png" alt="" class="img-fluid">
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                <a href="images/POSTER 1 replay.png" data-lightbox="roadtrip" data-title="Poster 3 SpaceSpeakers">
+                  <img src="images/POSTER 1 replay.png" alt="" class="img-fluid">
+                </a>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
+                <a href="images/MEN_.png" data-lightbox="roadtrip" data-title="Poster 4 TokyoGirls">
+                  <img src="images/MEN_.png" alt="" class="img-fluid">
+                </a>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="row justify-content-center">
+              
+            </div>
+          </div>
+
+          
+          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+        
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <h4 id="scrollspyHeading5" ></h4>
+    <section>
+      <div class="container" >
+        <h1 class="text-primary text-left" style="font-weight: bold;padding-right:160px ;"></h1>
+        <div class="row">
+          <div class="col-lg-5 mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine"     >
+            <p> My office :</p>
+            <h4>214 Nguyen dinh Chieu Q3 HCMC</h4>
+            <hr>
+            <p> Call me :</p>
+            <h4>0123456789</h4>
+            <hr>
+            <p> Email me:</p>
+            <h4>dinary@gmail.com</h4>
+            <p>follow me</p>
+            <a href="#"> <i class="fab fa-facebook me-2" style="text-decoration: none;"></i></a><a href="#"> <i
+                class="fab fa-instagram-square me-2" style="text-decoration: none;"></i></a> <a href="#"> <i class="fab fa-twitter-square"></i></a>
+            <hr>
+          </div>
+          <div class="col-lg-7 mb-3 " >
+            <p class="tieu-de">Liên hệ hợp tác tại đây.</p>
+            <form action="#">
+              <div class="row">
+                <div class="col-lg-6 mb-3" >
+                  <input type="text" placeholder="Your Name" class="form-control">
+                </div>
+                <div class="col-lg-6 mb-3">
+                  <input type="email" placeholder="Your Email" class="form-control">
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-3">
+                    <input type="text" placeholder="Subject" class="form-control">
+                  </div>
+                  <div class="col-lg-12 mb-3">
+                    <textarea placeholder="Message" class="form-control" style="height: 150px;"></textarea>
+                  </div>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-warning">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/lightbox.js"></script>
+  <script src="js/jquery.countup.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/typed.js"></script>
+  <script src="js/control.js"></script>
+
+</body>
+
+</html>
